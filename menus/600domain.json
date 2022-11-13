@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle 600domain",
+        "command": "600domain:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "600domain",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "600domain:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
